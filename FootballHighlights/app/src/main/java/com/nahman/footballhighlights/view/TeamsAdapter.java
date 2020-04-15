@@ -108,10 +108,14 @@ public class TeamsAdapter extends RecyclerView.Adapter<TeamsAdapter.TeamsViewHol
 
         if(name.equals("- All Teams -")){
             holder.ivFavorite.setVisibility(View.GONE);
+        }else{
+            holder.ivFavorite.setVisibility(View.VISIBLE);
         }
 
         if (favoriteTeams.contains(name)) {
             holder.ivFavorite.setImageResource(R.drawable.favorite);
+        }else{
+            holder.ivFavorite.setImageResource(R.drawable.no_favorite);
         }
 
 

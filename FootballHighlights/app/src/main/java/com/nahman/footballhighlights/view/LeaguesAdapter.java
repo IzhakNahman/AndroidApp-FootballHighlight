@@ -107,10 +107,15 @@ public class LeaguesAdapter extends RecyclerView.Adapter<LeaguesAdapter.LeaguesV
 
         if(name.equals("- All Leagues -")){
             holder.ivFavorite.setVisibility(View.GONE);
+        }else{
+            holder.ivFavorite.setVisibility(View.VISIBLE);
         }
+
 
         if (favoriteLeagues.contains(name)) {
             holder.ivFavorite.setImageResource(R.drawable.favorite);
+        }else{
+            holder.ivFavorite.setImageResource(R.drawable.no_favorite);
         }
 
         int imageId = getLeagueImageUrl( countryNames.get(position)

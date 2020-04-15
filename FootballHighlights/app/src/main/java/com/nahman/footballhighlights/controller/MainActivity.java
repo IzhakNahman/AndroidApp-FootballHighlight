@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.logo_tool_bar);// set drawable icon
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

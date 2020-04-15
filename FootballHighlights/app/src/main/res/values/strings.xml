@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Football Highlights</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="leauges">Leauges</string>
+    <string name="teams">Teams</string>
+    <string name="leagues">Leagues</string>
+    <string name="about">About</string>
+</resources>
